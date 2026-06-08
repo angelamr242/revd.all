@@ -4,24 +4,15 @@
 
 Designed for student clubs, startups, and hectic workspaces, the system reads incoming emails, extracts user intents and key entities, enforces custom organization-defined policy constraints, and routes transactions safely to automated actions or an immersive human-in-the-loop review dashboard.
 
-The frontend is styled after the **Immersive Minimalist WebGL aesthetic** (inspired by the Northgarden design studio), featuring slow-drifting liquid background mesh gradients, a 3D rotating cryptographic node engine, frosted glass cards (backdrop-blur), and responsive light/dark color configurations.
+The frontend is styled after the **Immersive Minimalist WebGL aesthetic** , featuring slow-drifting liquid background mesh gradients, a 3D rotating cryptographic node engine, frosted glass cards (backdrop-blur), and responsive light/dark color configurations.
 
 ---
 
 ## 📸 Dashboard Preview
 
-Here is a live look at the REVD.ALL Operator and Admin Control Deck:
+Here is a look at the REVD.ALL Operator and Admin Control Deck:
 
-<div align="center">
-  <!-- REPLACE these paths with your committed image files once uploaded to your repo -->
-  <img src="assets/dashboard-dark-view.png" width="800" alt="REVD.ALL Dark Mode Console View" style="border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; margin-bottom: 12px;">
-  <p><em>Figure 1: Immersive Dark Mode featuring the active review console, PII masked body, and the transaction log feed.</em></p>
-</div>
 
-<div align="center">
-  <img src="assets/dashboard-light-view.png" width="800" alt="REVD.ALL Light Mode Paper View" style="border: 1px solid rgba(0,0,0,0.1); border-radius: 12px;">
-  <p><em>Figure 2: Minimalist Bone-Cream Light Mode designed for high legibility under natural lighting conditions.</em></p>
-</div>
 
 ---
 <img width="1600" height="888" alt="image" src="https://github.com/user-attachments/assets/6e812b62-be05-475c-8f54-5e39d25d5217" />
@@ -85,7 +76,7 @@ Follow this sequential procedure to stand up the Operations Agent in your Worksp
 
 Create separate files in your Apps Script project matching the files in the src/ directory of this repository:
 `
-    Config.gs (Replace DATABASE.SPREADSHEET_ID with your sheet ID, and update CONFIG.OPERATIONAL_ALERT_EMAIL)
+     Config.gs (Replace DATABASE.SPREADSHEET_ID with your sheet ID, and update CONFIG.OPERATIONAL_ALERT_EMAIL)
 
 `    Database.gs
 
@@ -111,7 +102,7 @@ Create separate files in your Apps Script project matching the files in the src/
 
 Create the following folders/labels in your Gmail client:
 ``
-    Inbound-Pending
+     Inbound-Pending
 
  `   Processed-By-AI
 
